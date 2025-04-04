@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakruti Organics - Indian Organic Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo-container">
+            <img src="images/prakruti-logo.png" alt="Prakruti Organics Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#ayurveda">Ayurveda</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Prakruti Organics</h1>
+            <h2>Pure. Natural. Indian.</h2>
+            <p>Discover the ancient wisdom of organic Indian farming with our premium selection of organic products</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="products" class="featured-products">
+        <h2>Our Featured Products</h2>
+        <div class="products-container">
+            <article class="product-card">
+                <img src="images/turmeric.jpg" alt="Organic Turmeric Powder">
+                <h3>Organic Turmeric Powder</h3>
+                <p>Sourced from the foothills of Kerala</p>
+                <p class="price">₹250</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </article>
+
+            <article class="product-card">
+                <img src="images/ghee.jpg" alt="Organic Desi Ghee">
+                <h3>A2 Desi Cow Ghee</h3>
+                <p>Traditional bilona method</p>
+                <p class="price">₹850</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </article>
+
+            <article class="product-card">
+                <img src="images/jaggery.jpg" alt="Organic Jaggery">
+                <h3>Organic Jaggery</h3>
+                <p>100% natural, no chemicals</p>
+                <p class="price">₹180</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </article>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-us">
+        <h2>About Prakruti Organics</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Prakruti Organics was founded with a simple mission: to bring the purity and potency of traditional Indian organic farming to modern consumers.</p>
+                <p>Our farmers follow ancient Vedic agricultural practices that work in harmony with nature, preserving the soil's vitality and the food's nutritional value.</p>
+                <p>Every product in our store is carefully sourced, sustainably harvested, and traditionally processed to maintain its natural goodness.</p>
+            </div>
+            <div class="about-image">
+                <img src="images/organic-farm.jpg" alt="Our Organic Farm">
+            </div>
+        </div>
+    </section>
+
+    <!-- Ayurveda Section -->
+    <section id="ayurveda" class="ayurveda-section">
+        <h2>Ayurvedic Wisdom</h2>
+        <div class="ayurveda-content">
+            <aside class="ayurveda-sidebar">
+                <h3>Doshas</h3>
+                <ul>
+                    <li>Vata</li>
+                    <li>Pitta</li>
+                    <li>Kapha</li>
+                </ul>
+            </aside>
+            <div class="ayurveda-main">
+                <p>Ayurveda, the ancient Indian science of life, guides our product selection and recommendations. Discover products that balance your unique constitution.</p>
+                <div class="dosha-products">
+                    <div class="dosha-card">
+                        <h4>Vata Balancing</h4>
+                        <img src="images/vata-products.jpg" alt="Vata Balancing Products">
+                        <a href="#vata-products">View Products</a>
+                    </div>
+                    <div class="dosha-card">
+                        <h4>Pitta Balancing</h4>
+                        <img src="images/pitta-products.jpg" alt="Pitta Balancing Products">
+                        <a href="#pitta-products">View Products</a>
+                    </div>
+                    <div class="dosha-card">
+                        <h4>Kapha Balancing</h4>
+                        <img src="images/kapha-products.jpg" alt="Kapha Balancing Products">
+                        <a href="#kapha-products">View Products</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <h2>Join Our Community</h2>
+        <p>Subscribe to receive Ayurvedic tips and exclusive offers</p>
+        <form id="newsletter-form">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <button type="submit" class="btn">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/prakruti-logo-white.png" alt="Prakruti Organics Logo">
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Email: info@prakrutiorganics.com</p>
+                <p>Phone: +91 98765 43210</p>
+                <p>Address: 123 Organic Lane, New Delhi, India</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Prakruti Organics. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script type="text/babel" src="script.js"></script>
+</body>
+</html>
